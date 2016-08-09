@@ -44,9 +44,9 @@
                     @endif
                 </div>
 <!--
-                    <a class="news-letter" href="#">
-    				 <label class="checkbox"><input type="checkbox" checked=""><i> </i>Sign Up for Newsletter</label>
-                    </a>
+                <a class="news-letter" href="#">
+    			 <label class="checkbox"><input type="checkbox" checked=""><i> </i>Sign Up for Newsletter</label>
+                </a>
 -->
             </div>
 		</form>
