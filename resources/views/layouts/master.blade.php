@@ -48,9 +48,20 @@
 				</div>
 -->
 				<ul class="memenu skyblue">
-					<li><a class="color4" href="{{URL::asset('login')}}">Login</a></li>				
+
+					@if (Auth::guest())
+						<li><a class="color4" href="{{URL('login')}}">Login</a></li>|
+						<!-- <i class="fa fa-btn fa-sign-out"></i> <li class="top_link"><a href="logout">Sign Out</a></li>| -->
+						<li><a class="color4" href="{{URL('register')}}">Register</a></li>
+						@else
+						<!-- Displays the name of the authenticated users. -->
+						<li><a class="color4" href="#">{{ Auth::user()->name }}</a></li>
+						<li><a class="color4" href="{{URL('logout')}}">Logout</a></li>
+					@endif
+									
 					<li><a class="color6" href="contact.html">Contact</a></li>
 				</ul>
+				
 
 				<div class="ca-r">
 					<div class="cart box_1">
