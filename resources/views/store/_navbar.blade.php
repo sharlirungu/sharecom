@@ -1,7 +1,7 @@
 <div class="container">
 	    <div class="head-top">
 			<div class="logo">
-				<h1><a href="/">Mattress</a></h1>
+				<h1><a href="/">Company Name</a></h1>
 			</div>
             <div class=" h_menu4">
 			    <ul class="memenu skyblue">
@@ -24,8 +24,9 @@
 						</div>
 			        </li>
                 @endforeach
-				    <li><a class="color4" href="login.html">Login</a></li>				
+<!--				    <li><a class="color4" href="{{URL::asset('login')}}">Login</a></li>				
 				    <li><a class="color6" href="contact.html">Contact</a></li>
+-->
 			     </ul> 
     		</div>	
 		<div class="clearfix"> </div>

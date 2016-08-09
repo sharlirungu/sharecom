@@ -36,7 +36,7 @@
 				</ul>
 			</div>
 			<div class="header-left">
-			
+<!--			
 		    	<div class="search-box">
 					<div id="sb-search" class="sb-search">
 						<form>
@@ -46,6 +46,11 @@
 						</form>
 					</div>
 				</div>
+-->
+				<ul class="memenu skyblue">
+					<li><a class="color4" href="{{URL::asset('login')}}">Login</a></li>				
+					<li><a class="color6" href="contact.html">Contact</a></li>
+				</ul>
 
 				<div class="ca-r">
 					<div class="cart box_1">
@@ -58,6 +63,7 @@
 						<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
 					</div>
 				</div>
+
 				<div class="clearfix"> </div>
 			</div>
 		</div>
