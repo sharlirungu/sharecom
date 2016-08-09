@@ -14,6 +14,7 @@
 <div class=" container">
     <div class=" register">
         <form role="form" method="POST" action="{{ url('/register') }}"> 
+         {!! csrf_field() !!}
 		    <div class="col-md-6 register-top-grid">
 				<h3>Personal infomation</h3>
 	            <div>
@@ -44,11 +45,15 @@
                     @endif
                 </div>
 <!--
-                <a class="news-letter" href="#">
-    			 <label class="checkbox"><input type="checkbox" checked=""><i> </i>Sign Up for Newsletter</label>
-                </a>
+                    <a class="news-letter" href="#">
+    				 <label class="checkbox"><input type="checkbox" checked=""><i> </i>Sign Up for Newsletter</label>
+                    </a>
 -->
-            </div>
+                </div>
+	        <div class="clearfix"> </div>
+            <div class="col-md-6 register-bottom-grid">
+				 <input type="submit" value="Create account">   
+	        </div>
 		</form>
 	</div>
 </div>
